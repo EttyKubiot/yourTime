@@ -290,6 +290,17 @@ public class PlayerController : MonoBehaviour
                 MyGameManager.Instance.OnScorePlayer2?.Invoke();
                 Debug.Log("player2 score");
             }
+
+            if (gameObject.layer == LayerMask.NameToLayer("Player3"))
+            {
+                MyGameManager.Instance.OnScorePlayer3?.Invoke();
+                Debug.Log("player3 score");
+            }
+            if (gameObject.layer == LayerMask.NameToLayer("Player4"))
+            {
+                MyGameManager.Instance.OnScorePlayer4?.Invoke();
+                Debug.Log("player4 score");
+            }
         }
         if (other.gameObject.CompareTag("Player"))
         {
