@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: d7c5a14aa2712bf4c9b730bd5c7db6e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlasMarketingGame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3449
+        width: 818
+        height: 831
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2843a78ccbfd59948a05a3f28c8e159d
+      internalID: -438921146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_1
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 3456
+        width: 809
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b786e3fb337c0640bafd04b3eac22f4
+      internalID: 1027266782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_2
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3434
+        width: 778
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b97858ba4a664ab233636b9883c24
+      internalID: -1393579052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_3
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 3544
+        width: 1020
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0912f31f2388ba4588d57cfb021a981
+      internalID: 1335114465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_4
+      rect:
+        serializedVersion: 2
+        x: 4094
+        y: 3460
+        width: 666
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8955fe18b7c05842863f9403fa66e87
+      internalID: -807691926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_5
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 3578
+        width: 885
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8daac18dfb7844b262a6d01c1082b
+      internalID: -1759067047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_6
+      rect:
+        serializedVersion: 2
+        x: 5801
+        y: 3453
+        width: 850
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7979e80525edd94da7e773659a7169c
+      internalID: -811130120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_7
+      rect:
+        serializedVersion: 2
+        x: 6876
+        y: 3407
+        width: 901
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87189739dfa9df4ab8f3ace9054544b
+      internalID: 1684395638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2523
+        width: 714
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fb34b1ef3a67f4b8d18fe8b6e23169
+      internalID: 860270960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_9
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 2557
+        width: 657
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897abf3afa0d7194da972b05dab32ecf
+      internalID: 1298922211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_10
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 2492
+        width: 178
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05638aa04a96734990b5c5769950871
+      internalID: 600314993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_11
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 2492
+        width: 179
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4965c45948fd2449864d74b89e8b46
+      internalID: -2023762350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_12
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 2492
+        width: 182
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bc2e16b1e929d4c9e00eb0fe2efad3
+      internalID: -1442050653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_13
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 2534
+        width: 858
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99048135582d44a926c9ddff756937
+      internalID: 14880926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_14
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 2690
+        width: 1253
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763b827bb494629449c1da479a3698b1
+      internalID: 174055165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_15
+      rect:
+        serializedVersion: 2
+        x: 5721
+        y: 2621
+        width: 516
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f979688692c239943b7bd44746e8223c
+      internalID: -1549820119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_16
+      rect:
+        serializedVersion: 2
+        x: 6826
+        y: 2344
+        width: 424
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773bb104e1a14e1409b062dd4a99489e
+      internalID: -801782103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1646
+        width: 593
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b3389bf802db84c80b3edf5c600c3f
+      internalID: -775716267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_18
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1653
+        width: 1079
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652fef3c42698e945a9b76d012a0f75c
+      internalID: -451632374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_19
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1243
+        width: 873
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc8d03fc16d75a498580027d9945103
+      internalID: -254838965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_20
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1327
+        width: 399
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad3856a7f9324e428b81b3a7869d7b1
+      internalID: 301185490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_21
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 1460
+        width: 589
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c95b398f7d1bb4894c97bc41a4d6ab
+      internalID: 335556423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_22
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 1570
+        width: 747
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787d2e56b9dc004f81edded85bbd945
+      internalID: -1708288186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_23
+      rect:
+        serializedVersion: 2
+        x: 6363
+        y: 1566
+        width: 953
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b61e2419b159314c98feb5b4a648de5
+      internalID: -241805082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 890
+        width: 558
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c6481e7b7a8f445a7bc3de11623ff1
+      internalID: -300603887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_25
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 902
+        width: 976
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a5c85c96ff6846b5b9e6e01e5e2fd
+      internalID: -1086874714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_26
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 78
+        width: 703
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e88d426f411034ba33603701b6f9f5
+      internalID: 405744397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_27
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 108
+        width: 536
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897c21f68a61d594bab451ce5c617a5b
+      internalID: -2116807814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_28
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 0
+        width: 1424
+        height: 1361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2883356474a28418d35ed615938c3b
+      internalID: -49274042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_29
+      rect:
+        serializedVersion: 2
+        x: 6260
+        y: 104
+        width: 1420
+        height: 1356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4890270a1a7823842be4a4af0938f5e0
+      internalID: -2100292137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 101
+        width: 835
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ff2b13313fe9a409dfc41985c30762
+      internalID: 425874196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlasMarketingGame_31
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 669
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e20f6814198b439b4da249459789d
+      internalID: -1682520793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      atlasMarketingGame_5: -1759067047
+      atlasMarketingGame_2: -1393579052
+      atlasMarketingGame_0: -438921146
+      atlasMarketingGame_11: -2023762350
+      atlasMarketingGame_1: 1027266782
+      atlasMarketingGame_31: -1682520793
+      atlasMarketingGame_23: -241805082
+      atlasMarketingGame_21: 335556423
+      atlasMarketingGame_3: 1335114465
+      atlasMarketingGame_13: 14880926
+      atlasMarketingGame_22: -1708288186
+      atlasMarketingGame_28: -49274042
+      atlasMarketingGame_7: 1684395638
+      atlasMarketingGame_27: -2116807814
+      atlasMarketingGame_15: -1549820119
+      atlasMarketingGame_20: 301185490
+      atlasMarketingGame_9: 1298922211
+      atlasMarketingGame_14: 174055165
+      atlasMarketingGame_12: -1442050653
+      atlasMarketingGame_18: -451632374
+      atlasMarketingGame_30: 425874196
+      atlasMarketingGame_8: 860270960
+      atlasMarketingGame_16: -801782103
+      atlasMarketingGame_26: 405744397
+      atlasMarketingGame_6: -811130120
+      atlasMarketingGame_10: 600314993
+      atlasMarketingGame_19: -254838965
+      atlasMarketingGame_4: -807691926
+      atlasMarketingGame_29: -2100292137
+      atlasMarketingGame_25: -1086874714
+      atlasMarketingGame_17: -775716267
+      atlasMarketingGame_24: -300603887
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

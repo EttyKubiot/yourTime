@@ -1,0 +1,747 @@
+fileFormatVersion: 2
+guid: abed5c4908647114bb3f5e6e2d30d5d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4490419660382832849
+    second: boyclap_optimized_0
+  - first:
+      213: 8391131344310979680
+    second: boyclap_optimized_1
+  - first:
+      213: 3611181452154937639
+    second: boyclap_optimized_2
+  - first:
+      213: 4031724070666144907
+    second: boyclap_optimized_3
+  - first:
+      213: -1363244657277662254
+    second: boyclap_optimized_4
+  - first:
+      213: 7847617512694542655
+    second: boyclap_optimized_5
+  - first:
+      213: -1161157150633363853
+    second: boyclap_optimized_6
+  - first:
+      213: -4558616209792340927
+    second: boyclap_optimized_7
+  - first:
+      213: -6084676507127132271
+    second: boyclap_optimized_8
+  - first:
+      213: -4040135334329552579
+    second: boyclap_optimized_9
+  - first:
+      213: -143705310821470543
+    second: boyclap_optimized_10
+  - first:
+      213: -5480095618988402316
+    second: boyclap_optimized_11
+  - first:
+      213: 720723073541447075
+    second: boyclap_optimized_12
+  - first:
+      213: 3481184910703442918
+    second: boyclap_optimized_13
+  - first:
+      213: -5054521749004241758
+    second: boyclap_optimized_14
+  - first:
+      213: -2759608597582109073
+    second: boyclap_optimized_15
+  - first:
+      213: 3528672105349157381
+    second: boyclap_optimized_16
+  - first:
+      213: 8191928471475170470
+    second: boyclap_optimized_17
+  - first:
+      213: 2797502512512385345
+    second: boyclap_optimized_18
+  - first:
+      213: 707699162281576505
+    second: boyclap_optimized_19
+  - first:
+      213: -8500602267900548579
+    second: boyclap_optimized_20
+  - first:
+      213: -1771935426724679584
+    second: boyclap_optimized_21
+  - first:
+      213: -110192707757247314
+    second: boyclap_optimized_22
+  - first:
+      213: 6683371643623326864
+    second: boyclap_optimized_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boyclap_optimized_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2773723c13dea1c0800000000000000
+      internalID: -4490419660382832849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c4d41ef79437470800000000000000
+      internalID: 8391131344310979680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_2
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ac2bd56e7d1230800000000000000
+      internalID: 3611181452154937639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_3
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c82786eaf83f730800000000000000
+      internalID: 4031724070666144907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_4
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db040df438c41de0800000000000000
+      internalID: -1363244657277662254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_5
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fa41ac8658ec60800000000000000
+      internalID: 7847617512694542655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_6
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376f71c39bdb2efe0800000000000000
+      internalID: -1161157150633363853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_7
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 1828
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c6df3b5ba8cb0c0800000000000000
+      internalID: -4558616209792340927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fc58b64f2ee8ba0800000000000000
+      internalID: -6084676507127132271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3178c8a15e8ee7c0800000000000000
+      internalID: -4040135334329552579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_10
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be262cf7c4710ef0800000000000000
+      internalID: -143705310821470543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_11
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479950fb11ac2f3b0800000000000000
+      internalID: -5480095618988402316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_12
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad9ddb11d5800a00800000000000000
+      internalID: 720723073541447075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_13
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebbdef6b37af4030800000000000000
+      internalID: 3481184910703442918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_14
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4bd11df3bbad9b0800000000000000
+      internalID: -5054521749004241758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_15
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 914
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66210ef996e3b9d0800000000000000
+      internalID: -2759608597582109073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5029a28859c58f030800000000000000
+      internalID: 3528672105349157381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_17
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acafa7ca839fa170800000000000000
+      internalID: 8191928471475170470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_18
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141409c96b9b2d620800000000000000
+      internalID: 2797502512512385345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_19
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93882a773a042d900800000000000000
+      internalID: 707699162281576505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_20
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a68e4864bc70a80800000000000000
+      internalID: -8500602267900548579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_21
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06035251e12d867e0800000000000000
+      internalID: -1771935426724679584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_22
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea47a4de054887ef0800000000000000
+      internalID: -110192707757247314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyclap_optimized_23
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 0
+        width: 590
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0944610991b10cc50800000000000000
+      internalID: 6683371643623326864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boyclap_optimized_7: -4558616209792340927
+      boyclap_optimized_12: 720723073541447075
+      boyclap_optimized_0: -4490419660382832849
+      boyclap_optimized_6: -1161157150633363853
+      boyclap_optimized_3: 4031724070666144907
+      boyclap_optimized_13: 3481184910703442918
+      boyclap_optimized_18: 2797502512512385345
+      boyclap_optimized_2: 3611181452154937639
+      boyclap_optimized_9: -4040135334329552579
+      boyclap_optimized_8: -6084676507127132271
+      boyclap_optimized_10: -143705310821470543
+      boyclap_optimized_22: -110192707757247314
+      boyclap_optimized_20: -8500602267900548579
+      boyclap_optimized_14: -5054521749004241758
+      boyclap_optimized_4: -1363244657277662254
+      boyclap_optimized_23: 6683371643623326864
+      boyclap_optimized_1: 8391131344310979680
+      boyclap_optimized_15: -2759608597582109073
+      boyclap_optimized_11: -5480095618988402316
+      boyclap_optimized_16: 3528672105349157381
+      boyclap_optimized_5: 7847617512694542655
+      boyclap_optimized_19: 707699162281576505
+      boyclap_optimized_17: 8191928471475170470
+      boyclap_optimized_21: -1771935426724679584
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

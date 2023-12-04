@@ -1,0 +1,44 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Scenes/girlRun.tpsheet
+- Assets/Sprites/popup.tpsheet
+- Assets/texturpacker/girlAir.tpsheet
+- Assets/texturpacker/girlJump 1.tpsheet
+- Assets/texturpacker/girlJump.tpsheet
+- Assets/texturpacker/girlLand.tpsheet
+- Assets/texturpacker/girlRun.tpsheet
+- Assets/texturpacker/idle.tpsheet
+- Assets/texturpacker/jump.tpsheet
+- Assets/texturpacker/land.tpsheet
+- Assets/texturpacker/run.tpsheet
+- Assets/texturpacker/walk.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Scenes/girlRun.png
+- Assets/Sprites/popup.png
+- Assets/texturpacker/girlAir.png
+- Assets/texturpacker/girlJump.png
+- Assets/texturpacker/girlJump.png
+- Assets/texturpacker/girlLand.png
+- Assets/texturpacker/girlRun.png
+- Assets/texturpacker/idle.png
+- Assets/texturpacker/jump.png
+- Assets/texturpacker/land.png
+- Assets/texturpacker/run.png
+- Assets/texturpacker/walk.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

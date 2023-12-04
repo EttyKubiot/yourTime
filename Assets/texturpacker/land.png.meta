@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: eba62f2d260ac944081f64f867da6ae2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jamping14
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3170
+        width: 451
+        height: 925
+      alignment: 9
+      pivot: {x: 0.41019955, y: -0.70054054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c89b0f41c3605499f05492b9d4c1cb
+      internalID: -1931307548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping15
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 3168
+        width: 450
+        height: 927
+      alignment: 9
+      pivot: {x: 0.4288889, y: -0.4768069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7518f8382c8b24ba6550cdc1c63a80
+      internalID: -1488988262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 3163
+        width: 451
+        height: 932
+      alignment: 9
+      pivot: {x: 0.4390244, y: -0.24356224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7025483268b3f514fa8ca2adb3e2bb8f
+      internalID: -1581979227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping17
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 3181
+        width: 450
+        height: 914
+      alignment: 9
+      pivot: {x: 0.36222222, y: -0.05032823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f967060b1bb462146b27e65ba442edd4
+      internalID: 154240982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping18
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 785
+        width: 452
+        height: 781
+      alignment: 9
+      pivot: {x: 0.24557522, y: 0.061459668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3075eaf0103b3246804cbdb4f45238b
+      internalID: 1114372408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 902
+        width: 452
+        height: 782
+      alignment: 9
+      pivot: {x: 0.24557522, y: 0.02685422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83e37f9c287fd44e8db77838ed457a2
+      internalID: 965972445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping20
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 1573
+        width: 457
+        height: 765
+      alignment: 9
+      pivot: {x: 0.18161926, y: -0.006535948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a167a9985bcd94c851900c8438fb01
+      internalID: -670697141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping21
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 280
+        width: 456
+        height: 771
+      alignment: 9
+      pivot: {x: 0.18859649, y: -0.044098575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a115de68953b41b4eb5af4930a08b
+      internalID: -1285073970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping22
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1
+        width: 456
+        height: 789
+      alignment: 9
+      pivot: {x: 0.20614035, y: -0.078580484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504829840f01d6439cbab6665f33346
+      internalID: 1845480319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping23
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 1
+        width: 453
+        height: 817
+      alignment: 9
+      pivot: {x: 0.23178808, y: -0.11015912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a28e690d8bbce4b9cf3a5312c67e78
+      internalID: -488358100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping24
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 975
+        width: 451
+        height: 861
+      alignment: 9
+      pivot: {x: 0.2616408, y: -0.123112656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2810d44e613fe249a617d41d5be1d4d
+      internalID: -1845549475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 313
+        width: 449
+        height: 893
+      alignment: 9
+      pivot: {x: 0.28730512, y: -0.15229563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0d3f84170f60f4389ee9b64d253f11
+      internalID: -889481194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping26
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 899
+        width: 449
+        height: 897
+      alignment: 9
+      pivot: {x: 0.31403118, y: 0.028985508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb7249017606af469f7708731c32227
+      internalID: 1905951673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping27
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1
+        width: 450
+        height: 889
+      alignment: 9
+      pivot: {x: 0.33555555, y: -0.044994377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a466c8d7c3692aa44a939381a2d38f76
+      internalID: -1625296528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 450
+        height: 899
+      alignment: 9
+      pivot: {x: 0.35555556, y: -0.09343715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8391c94004fa87444b9f54f572e4ee36
+      internalID: 775544507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping29
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2377
+        width: 451
+        height: 903
+      alignment: 9
+      pivot: {x: 0.37250555, y: -0.18383168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1810919220b8254d9a48aa67a1af741
+      internalID: 2067832253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping30
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 2094
+        width: 452
+        height: 905
+      alignment: 9
+      pivot: {x: 0.38053098, y: -0.22320442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227593f66e83914dbf47075df439376
+      internalID: 1674984379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping31
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 2169
+        width: 452
+        height: 906
+      alignment: 9
+      pivot: {x: 0.3738938, y: -0.196468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5b2203c261d04d8a3d2d3ddada2ff
+      internalID: 1128650268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping32
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2264
+        width: 451
+        height: 911
+      alignment: 9
+      pivot: {x: 0.36585367, y: -0.15587267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5977b6b74a737aa42847e98273a30745
+      internalID: -1563008480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping33
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 3180
+        width: 449
+        height: 915
+      alignment: 9
+      pivot: {x: 0.36302894, y: -0.11147541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961389a647a7554478d7d23cb413da6c
+      internalID: -663302807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping34
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2374
+        width: 448
+        height: 910
+      alignment: 9
+      pivot: {x: 0.35714287, y: -0.043956045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503214fe06a74244b8eb08d3fbdab605
+      internalID: -2022101935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping35
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 563
+        width: 450
+        height: 889
+      alignment: 9
+      pivot: {x: 0.32, y: 0.071991004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a796657b111c46644b2346aa5c4de05a
+      internalID: 1129488146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping36
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1
+        width: 452
+        height: 782
+      alignment: 9
+      pivot: {x: 0.24557522, y: 0.22762148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc8f5cb9a4d2454fa7333a6ee67d64e
+      internalID: 17573976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping37
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1053
+        width: 457
+        height: 765
+      alignment: 9
+      pivot: {x: 0.18161926, y: 0.29934642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c3c3b1196470640be99162f09bfeb7
+      internalID: -1515897680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping38
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1
+        width: 456
+        height: 798
+      alignment: 9
+      pivot: {x: 0.19298245, y: 0.2907268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd19f9a1a67abdc4f8493c92bb7305e3
+      internalID: -1892123939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping39
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1653
+        width: 497
+        height: 856
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.24649532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc262bda2443a724ebbfa05802289e8d
+      internalID: 1394594443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2286
+        width: 475
+        height: 882
+      alignment: 9
+      pivot: {x: 0.28842106, y: 0.14965986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e289446e1a24f0e4189ece4061b9eef2
+      internalID: 170690580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping41
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 2078
+        width: 471
+        height: 886
+      alignment: 9
+      pivot: {x: 0.31422505, y: 0.0033860046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af8c4f1ad7ce642a78beb7c6c111d0
+      internalID: -1034573526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping42
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 1048
+        width: 449
+        height: 895
+      alignment: 9
+      pivot: {x: 0.30957684, y: -0.16759777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35820fa97d322fd4dbb86fffdea2a4e0
+      internalID: -446885164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping43
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2063
+        width: 449
+        height: 904
+      alignment: 9
+      pivot: {x: 0.33407572, y: -0.34292036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c267ea278d6ed4c9b5bde86a2cf940
+      internalID: -1409570150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping44
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 2373
+        width: 449
+        height: 910
+      alignment: 9
+      pivot: {x: 0.35634744, y: -0.4989011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cd6ac7aaa2b14f82241e7f6e73c88
+      internalID: 1170750142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping45
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2101
+        width: 449
+        height: 907
+      alignment: 9
+      pivot: {x: 0.37861916, y: -0.62293273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6986249ccbc020341982a72586066298
+      internalID: -534713657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping46
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 647
+        width: 450
+        height: 886
+      alignment: 9
+      pivot: {x: 0.4, y: -0.70993227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb269a19d8b6c74cad238b16cb4265b
+      internalID: -224154796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping47
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1666
+        width: 456
+        height: 888
+      alignment: 9
+      pivot: {x: 0.3991228, y: -0.7038288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a497f7e84a46848ba2e8ceba1f7097
+      internalID: 580618136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping48
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 1
+        width: 455
+        height: 896
+      alignment: 9
+      pivot: {x: 0.3956044, y: -0.671875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137a3d5450011a24283cd083b21457f8
+      internalID: -1920966535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping49
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3171
+        width: 451
+        height: 924
+      alignment: 9
+      pivot: {x: 0.41019955, y: -0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f42c83af452eaa49a87c155586690e1
+      internalID: 185210072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping50
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 3168
+        width: 450
+        height: 927
+      alignment: 9
+      pivot: {x: 0.4288889, y: -0.28263214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc6ef0e075e199429412534a25c3a61
+      internalID: -714070031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3163
+        width: 451
+        height: 932
+      alignment: 9
+      pivot: {x: 0.4390244, y: -0.050429184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b3906b87ccac4bbefa84dd4f561f7
+      internalID: 758771898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping52
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 3181
+        width: 450
+        height: 914
+      alignment: 9
+      pivot: {x: 0.36222222, y: 0.14660831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427ebfe123855f49817d54521e24edf
+      internalID: -277121914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping53
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 792
+        width: 452
+        height: 781
+      alignment: 9
+      pivot: {x: 0.24557522, y: 0.29193342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a656c4090c93d0f4087237e39e54bfed
+      internalID: 697255323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jamping54
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1527
+        width: 452
+        height: 781
+      alignment: 9
+      pivot: {x: 0.24557522, y: 0.29193342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e19f847c04d94dbda2192ba02b1d4
+      internalID: 1212336868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 308585a13146c734995771531ae27fe1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jamping31: 1128650268
+      jamping36: 17573976
+      jamping37: -1515897680
+      jamping51: 758771898
+      jamping30: 1674984379
+      jamping20: -670697141
+      jamping52: -277121914
+      jamping49: 185210072
+      jamping28: 775544507
+      jamping18: 1114372408
+      jamping14: -1931307548
+      jamping16: -1581979227
+      jamping38: -1892123939
+      jamping25: -889481194
+      jamping47: 580618136
+      jamping33: -663302807
+      jamping32: -1563008480
+      jamping15: -1488988262
+      jamping23: -488358100
+      jamping40: 170690580
+      jamping24: -1845549475
+      jamping41: -1034573526
+      jamping17: 154240982
+      jamping29: 2067832253
+      jamping48: -1920966535
+      jamping21: -1285073970
+      jamping39: 1394594443
+      jamping43: -1409570150
+      jamping35: 1129488146
+      jamping42: -446885164
+      jamping45: -534713657
+      jamping50: -714070031
+      jamping53: 697255323
+      jamping34: -2022101935
+      jamping46: -224154796
+      jamping27: -1625296528
+      jamping19: 965972445
+      jamping54: 1212336868
+      jamping26: 1905951673
+      jamping22: 1845480319
+      jamping44: 1170750142
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
