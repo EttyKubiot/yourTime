@@ -8,7 +8,7 @@ public class TouchingSpace : MonoBehaviour
     public float groundDistance = 0.05f;
     public float CeilingCheckDistance = 0.2f;
      public float wallCheckDistance = 0.05f;
-    CapsuleCollider2D touchingCol;
+    BoxCollider2D touchingCol;
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
     RaycastHit2D[] CeilingHits = new RaycastHit2D[5];
@@ -65,7 +65,7 @@ public class TouchingSpace : MonoBehaviour
 
     private void Awake()
     {
-        touchingCol = GetComponent<CapsuleCollider2D>();
+        touchingCol = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
