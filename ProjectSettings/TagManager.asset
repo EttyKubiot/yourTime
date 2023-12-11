@@ -10,6 +10,10 @@ TagManager:
   - School
   - Spawn
   - FallingObject
+  - Clock1
+  - Clock2
+  - Clock3
+  - Clock4
   layers:
   - Default
   - TransparentFX

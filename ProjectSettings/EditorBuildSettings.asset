@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bet.unity
     guid: 8687ab72550d6d34eb4e88811554cfb1
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: d32cdf624d8529f4bb9cb465c75291e6, type: 2}

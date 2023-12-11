@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
     TouchingSpace touchingSpace;
-
+    public ParticleSystem collisionParticles;
     public float jumpForce = 10f;
     public float swipeThreshold = 100f;
 
@@ -273,140 +273,96 @@ public class PlayerController : MonoBehaviour
         //MyGameManager.Instance.canMove = false;
         //_isMoving = false;
         animator.SetBool("isMoving", false);
-        if (other.CompareTag("FallingObject"))
+        if (other.CompareTag("Clock1") || other.CompareTag("Clock2") || other.CompareTag("Clock3") || other.CompareTag("Clock4"))
         {
-            //score += 10;
-            //scoreText.text = score.ToString();
+            if (collisionParticles != null)
+            {
+                Instantiate(collisionParticles, other.transform.position, Quaternion.identity);
+            }
             Destroy(other.gameObject);
-            //Instantiate(caughtObjectPrefab, transform.position, Quaternion.identity);
+
             Debug.Log("catch");
-            if(gameObject.layer== LayerMask.NameToLayer("Player1"))
-            {
-                MyGameManager.Instance.OnScorePlayer1?.Invoke();
-                Debug.Log("player1 score");
-            }
-            if (gameObject.layer == LayerMask.NameToLayer("Player2"))
-            {
-                MyGameManager.Instance.OnScorePlayer2?.Invoke();
-                Debug.Log("player2 score");
-            }
 
-            if (gameObject.layer == LayerMask.NameToLayer("Player3"))
-            {
-                MyGameManager.Instance.OnScorePlayer3?.Invoke();
-                Debug.Log("player3 score");
-            }
-            if (gameObject.layer == LayerMask.NameToLayer("Player4"))
-            {
-                MyGameManager.Instance.OnScorePlayer4?.Invoke();
-                Debug.Log("player4 score");
-            }
-        }
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("playermeetplayerrrrr");
-        }
+            MyGameManager.Instance.OnScorePlayer1?.Invoke(gameObject.layer, other.tag);
+            Debug.Log(gameObject.layer);
 
-            if (other.gameObject.CompareTag("P1"))
-        {
-            MyGameManager.Instance.OnCorrectPick?.Invoke();
-            MyGameManager.Instance.PlayAudioPressed?.Invoke(other.gameObject.GetComponent<PickUpClip>().clip);
-           
-            //MyGameManager.Instance.OnColdPick?.Invoke();
-            animator.SetTrigger("eat");
-            StartCoroutine(DestroyPickUp(other.gameObject));
-        }
-        else if (other.gameObject.CompareTag("P3"))
-        {
-            MyGameManager.Instance.OnMistakePick?.Invoke();
-            MyGameManager.Instance.PlayAudioPressed?.Invoke(other.gameObject.GetComponent<PickUpClip>().clip);
-            animator.SetTrigger("eat");
-            StartCoroutine(DestroyPickUp(other.gameObject));
-        }
-       
-
-        else if (other.gameObject.CompareTag("School"))
-        {
-            MyGameManager.Instance.OnWin?.Invoke();
-            MyGameManager.Instance.canMove = false;
-            _isMoving = false;
         }
 
     }
 
 
-    private IEnumerator DestroyPickUp(GameObject pick)
-    {
-        yield return new WaitForSeconds(0.1f);
+    //private IEnumerator DestroyPickUp(GameObject pick)
+    //{
+    //    yield return new WaitForSeconds(0.1f);
 
-        if (pick == null)
-        {
-            yield break; // Exit the coroutine if the pick object is already destroyed
-        }
+    //    if (pick == null)
+    //    {
+    //        yield break; // Exit the coroutine if the pick object is already destroyed
+    //    }
 
-        if (pick.gameObject.CompareTag("P1"))
-        {
-            SpriteRenderer text = Instantiate(MyGameManager.Instance.textCollect, pick.transform.position, pick.transform.rotation);
-            if (text != null)
-            {
-                Vector3 targetPosition = text.transform.position + new Vector3(0f, targetOffset, 0f);
+    //    if (pick.gameObject.CompareTag("P1"))
+    //    {
+    //        SpriteRenderer text = Instantiate(MyGameManager.Instance.textCollect, pick.transform.position, pick.transform.rotation);
+    //        if (text != null)
+    //        {
+    //            Vector3 targetPosition = text.transform.position + new Vector3(0f, targetOffset, 0f);
 
-                text.transform.DOMove(targetPosition, animationDuration)
-                    .SetEase(Ease.OutQuad)
-                    .OnComplete(() =>
-                    {
-                        // Animation complete, do any necessary cleanup or additional actions here
-                        Destroy(text.gameObject);
-                    });
-            }
+    //            text.transform.DOMove(targetPosition, animationDuration)
+    //                .SetEase(Ease.OutQuad)
+    //                .OnComplete(() =>
+    //                {
+    //                    // Animation complete, do any necessary cleanup or additional actions here
+    //                    Destroy(text.gameObject);
+    //                });
+    //        }
 
-            yield return new WaitForSeconds(0.1f);
+    //        yield return new WaitForSeconds(0.1f);
 
-            ParticleSystem particleSystem = Instantiate(MyGameManager.Instance.particleSystem, pick.transform.position, pick.transform.rotation);
-            if (particleSystem != null)
-            {
-                particleSystem.Play();
-                Destroy(particleSystem, 3);
-            }
-        }
-        else if (pick.gameObject.CompareTag("P3"))
-        {
-            SpriteRenderer text = Instantiate(MyGameManager.Instance.textCollect1, pick.transform.position, pick.transform.rotation);
-            if (text != null)
-            {
-                Vector3 targetPosition = text.transform.position + new Vector3(0f, targetOffset, 0f);
+    //        ParticleSystem particleSystem = Instantiate(MyGameManager.Instance.particleSystem, pick.transform.position, pick.transform.rotation);
+    //        if (particleSystem != null)
+    //        {
+    //            particleSystem.Play();
+    //            Destroy(particleSystem, 3);
+    //        }
+    //    }
+    //    else if (pick.gameObject.CompareTag("P3"))
+    //    {
+    //        SpriteRenderer text = Instantiate(MyGameManager.Instance.textCollect1, pick.transform.position, pick.transform.rotation);
+    //        if (text != null)
+    //        {
+    //            Vector3 targetPosition = text.transform.position + new Vector3(0f, targetOffset, 0f);
 
-                text.transform.DOMove(targetPosition, animationDuration)
-                    .SetEase(Ease.OutQuad)
-                    .OnComplete(() =>
-                    {
-                        // Animation complete, do any necessary cleanup or additional actions here
-                        Destroy(text.gameObject);
-                    });
-            }
+    //            text.transform.DOMove(targetPosition, animationDuration)
+    //                .SetEase(Ease.OutQuad)
+    //                .OnComplete(() =>
+    //                {
+    //                    // Animation complete, do any necessary cleanup or additional actions here
+    //                    Destroy(text.gameObject);
+    //                });
+    //        }
 
-            //yield return new WaitForSeconds(0.1f);
+    //        //yield return new WaitForSeconds(0.1f);
 
-            //ParticleSystem particleSystem1 = Instantiate(MyGameManager.Instance.particleSystem1, pick.transform.position, pick.transform.rotation);
-            //if (particleSystem1 != null)
-            //{
-            //    particleSystem1.Play();
-            //    Destroy(particleSystem1);
-            //}
+    //        //ParticleSystem particleSystem1 = Instantiate(MyGameManager.Instance.particleSystem1, pick.transform.position, pick.transform.rotation);
+    //        //if (particleSystem1 != null)
+    //        //{
+    //        //    particleSystem1.Play();
+    //        //    Destroy(particleSystem1);
+    //        //}
         
         
            
 
            
-        }
+    //    }
 
-        yield return new WaitForSeconds(0.1f);
+    //    yield return new WaitForSeconds(0.1f);
 
-        if (pick != null)
-        {
-            Destroy(pick);
-        }
-    }
+    //    if (pick != null)
+    //    {
+    //        Destroy(pick);
+    //    }
+    //}
 
     
 

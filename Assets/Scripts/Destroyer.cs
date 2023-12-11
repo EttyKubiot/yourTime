@@ -6,7 +6,7 @@ public class Destroyer : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("FallingObject"))
+        if (other.CompareTag("Clock1") || other.CompareTag("Clock2") || other.CompareTag("Clock3") || other.CompareTag("Clock4"))
         {
 
             Destroy(other.gameObject);

@@ -20,7 +20,7 @@ public class ObjectSpawner : MonoBehaviour
     {
         int randomIndex = Random.Range(0, objectPrefabs.Length);
         GameObject objectPrefab = objectPrefabs[randomIndex];
-        Vector3 spawnPos = new Vector3(Random.Range(-screenWidth / 2, screenWidth / 2), transform.position.y, 0);
+        Vector3 spawnPos = new Vector3(Random.Range(-screenWidth /*/ 2*/, screenWidth /*/ 2*/), transform.position.y, 0);
         GameObject newObject = Instantiate(objectPrefab, spawnPos, Quaternion.identity) as GameObject;
         newObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -descentSpeed);
     }

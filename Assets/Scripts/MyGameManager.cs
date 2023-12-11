@@ -7,10 +7,8 @@ using UnityEngine.UI;
 
 public class MyGameManager : MonoBehaviour
 {
-    public UnityAction OnScorePlayer1;
-    public UnityAction OnScorePlayer2;
-    public UnityAction OnScorePlayer3;
-    public UnityAction OnScorePlayer4;
+    public UnityAction<int, string> OnScorePlayer1;
+ 
     public UnityAction OnScorePlayer1Minus;
     public UnityAction OnScorePlayer2Minus;
     public UnityAction OnScorePlayer3Minus;
