@@ -9,11 +9,12 @@ public class ObjectSpawner : MonoBehaviour
     public float screenWidth = 16.0f;
     public float descentSpeed = 0.5f;
     [SerializeField] GameObject limit;
+    public float timeToSpawn = 120f;
 
     void Start()
     {
         InvokeRepeating("SpawnObject", spawnInterval, spawnInterval);
-        Invoke("StopSpawningAndDestroyLimit", 60f); // Stop spawning after 60 seconds
+        Invoke("StopSpawningAndDestroyLimit", timeToSpawn); // Stop spawning after 60 seconds
     }
 
     void SpawnObject()

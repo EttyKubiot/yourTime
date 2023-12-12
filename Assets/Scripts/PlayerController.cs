@@ -277,7 +277,8 @@ public class PlayerController : MonoBehaviour
         {
             if (collisionParticles != null)
             {
-                Instantiate(collisionParticles, other.transform.position, Quaternion.identity);
+              ParticleSystem particles = Instantiate(collisionParticles, other.transform.position, Quaternion.identity);
+              Destroy(particles.gameObject, 2.0f);
             }
             Destroy(other.gameObject);
 
@@ -288,9 +289,11 @@ public class PlayerController : MonoBehaviour
 
         }
 
+
+
     }
 
-
+    
     //private IEnumerator DestroyPickUp(GameObject pick)
     //{
     //    yield return new WaitForSeconds(0.1f);
@@ -349,11 +352,11 @@ public class PlayerController : MonoBehaviour
     //        //    particleSystem1.Play();
     //        //    Destroy(particleSystem1);
     //        //}
-        
-        
-           
 
-           
+
+
+
+
     //    }
 
     //    yield return new WaitForSeconds(0.1f);
@@ -364,7 +367,7 @@ public class PlayerController : MonoBehaviour
     //    }
     //}
 
-    
+
 
 }
 

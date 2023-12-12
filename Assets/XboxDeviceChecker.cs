@@ -7,6 +7,7 @@ public class XboxDeviceChecker : MonoBehaviour
 
     void Start()
     {
+      
         CheckConnectedDevices();
     }
 

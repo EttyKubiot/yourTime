@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
-    public float timeRemaining = 0;
-    public bool timerIsRunning = false;
+    public float timeRemaining = 120;
+    public bool timerIsRunning = true;
     public Text timeText;
     [SerializeField] private Text timeTextPopup;
     [SerializeField] private Text timeTextPopupLose;
@@ -19,8 +19,8 @@ public class Timer : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
 
         //gameManager.OnRestartTime += RestartTime;
-        gameManager.OnWin += StopTimer;
-        gameManager.OnLose += StopTimer;
+        //gameManager.OnWin += StopTimer;
+        //gameManager.OnLose += StopTimer;
         timerIsRunning = true;
         //RestartTime();
     }
@@ -29,7 +29,7 @@ public class Timer : MonoBehaviour
     {
         if (timerIsRunning)
         {
-                timeRemaining += Time.deltaTime;
+                timeRemaining -= Time.deltaTime;
                 DisplayTime(timeRemaining);
           
         }
@@ -46,7 +46,7 @@ public class Timer : MonoBehaviour
 
     void DisplayTime(float timeToDisplay)
     {
-        timeToDisplay += 1;
+        timeToDisplay -= 1;
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
@@ -55,10 +55,10 @@ public class Timer : MonoBehaviour
         {
             timeTextPopup.text = string.Format("{0:00}:{1:00}", minutes, seconds);
             timeTextPopupLose.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-            if (minutes <= 5)
-            {
-                gameManager.OnTime?.Invoke();
-            }
+            //if (minutes <= 5)
+            //{
+            //    gameManager.OnTime?.Invoke();
+            //}
         }
      
     }
