@@ -55,8 +55,8 @@ public class CountdownTimer : MonoBehaviour
             {
                 // Time's up for player i, perform necessary actions here
                 Debug.Log("Player " + i + " - Time's up!");
-                //player[i].canMove = false;
-                // Additional actions or scene transitions can be added here
+                player[i].gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                player[i].gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll; 
             }
         }
     }

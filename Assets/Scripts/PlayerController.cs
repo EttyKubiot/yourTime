@@ -288,6 +288,10 @@ public class PlayerController : MonoBehaviour
             Debug.Log(gameObject.layer);
 
         }
+        if(other.CompareTag("Flag"))
+        {
+            MyGameManager.Instance.OnFlag?.Invoke(gameObject.layer);
+        }
 
 
 

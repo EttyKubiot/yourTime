@@ -43,10 +43,10 @@ public class PipeDown : MonoBehaviour
         color.a = 0f;
         player.GetComponent<SpriteRenderer>().color = color;
         player.GetComponent<Transform>().position = connection1.position;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         color.a = 1f;
         player.GetComponent<SpriteRenderer>().color = color;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.5f);
         player.GetComponent<Transform>().position = connection.position;
         player.GetComponent<PlayerController>().enabled = true;
     }

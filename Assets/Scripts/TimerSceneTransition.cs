@@ -22,10 +22,16 @@ public class TimerSceneTransition : MonoBehaviour
         }
     }
 
-    public void LoadNextScene()
+    public void LoadNextScene2()
     {
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
+    }
+
+    public void LoadNextScene1()
+    {
+
+        SceneManager.LoadScene(2);
     }
 }
 

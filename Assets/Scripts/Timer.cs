@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public float timeRemaining = 120;
@@ -33,10 +34,15 @@ public class Timer : MonoBehaviour
                 DisplayTime(timeRemaining);
           
         }
+       if(timeRemaining<2)
+        {
+            StopTimer();
+        }
     }
     public void StopTimer()
     {
         timerIsRunning = false;
+        MyGameManager.Instance.OnTime?.Invoke();
         DisplayTime(timeRemaining);
     }
 
@@ -72,7 +78,11 @@ public class Timer : MonoBehaviour
     //    timeRemaining = 0;
     //    timerIsRunning = true;
     //}
+    public void LoadNextScene1()
+    {
 
+        SceneManager.LoadScene(3);
+    }
 }
 
 

@@ -6,10 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/YourTime.unity
-    guid: aa040b09acbba394ea74a4b613cb05c4
+    path: Assets/Scenes/YourTime0.unity
+    guid: 720618304d209483882dcd7760dba7d0
   - enabled: 1
     path: Assets/Scenes/YourTime 1.unity
+    guid: c0544e52af35e4344a75b7f1dd46b512
+  - enabled: 1
+    path: Assets/Scenes/YourTime2.unity
+    guid: aa040b09acbba394ea74a4b613cb05c4
+  - enabled: 1
+    path: Assets/Scenes/YourTime 3.unity
+    guid: 8cebe2da62d55cc41a5484128aaebee4
+  - enabled: 1
+    path: Assets/Scenes/YourTime 4.unity
     guid: 29b9d520a98bb35479fe1113f33255e1
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: d32cdf624d8529f4bb9cb465c75291e6, type: 2}

@@ -19,6 +19,7 @@ public class MyGameManager : MonoBehaviour
     public UnityAction OnEnemy;
     public UnityAction OnTime;
     public UnityAction OnEndA;
+    public UnityAction<int> OnFlag;
     public UnityAction OnThousand;
     public UnityAction OnTenThousand;
     public UnityAction OnCorrectPick;
@@ -29,11 +30,12 @@ public class MyGameManager : MonoBehaviour
     public SpriteRenderer textCollect;
     public SpriteRenderer textCollect1;
     public SpriteRenderer textCollect2;
+   
     public int saveScore;
     public static MyGameManager Instance;
     public string homePageURL = "https://shirshiur.co.il/game-school/";
     public string googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSf25SB673RWNkRpBD0TlGL5dgsnKuR74LoXYRKh0lzBXG2ElA/viewform?usp=sf_link";
-    //public GameObject popup;
+    public GameObject flagPopup;
     public GameObject endAPopup;
     public int mode;
     public bool gameEnd;
@@ -53,6 +55,7 @@ public class MyGameManager : MonoBehaviour
     {
         OnTime += SetPopup;
         OnEndA += SetPopup;
+     
         StartCoroutine(GetData());
     }
 
@@ -91,12 +94,16 @@ public class MyGameManager : MonoBehaviour
         StartCoroutine(Popup());
     }
 
+   
+
     IEnumerator Popup()
     {
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(3f);
         endAPopup.SetActive(true);
         //OpenHomePage();
     }
+
+   
 
     public void Play()
     {
