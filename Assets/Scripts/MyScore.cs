@@ -19,7 +19,7 @@ public class MyScore : MonoBehaviour
 
     private void SetScorePlayer1(int playerLayer, string watchType)
     {
-        int index = playerLayer - 6;
+        int index = playerLayer;
         if(watchType== "Clock1")
         {
             scoreType = 10;

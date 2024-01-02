@@ -81,7 +81,7 @@ public class Timer : MonoBehaviour
     public void LoadNextScene1()
     {
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }
 

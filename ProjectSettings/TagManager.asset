@@ -15,6 +15,7 @@ TagManager:
   - Clock3
   - Clock4
   - Flag
+  - Bad
   layers:
   - Default
   - TransparentFX

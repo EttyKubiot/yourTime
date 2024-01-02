@@ -4205,7 +4205,6 @@ MonoBehaviour:
   textCollect: {fileID: 8205575988516789734, guid: 4f6214de9a149ac47a85037975500a32, type: 3}
   textCollect1: {fileID: 1279426405720696454, guid: be3b3643e9f23dc4586d67e504f33305, type: 3}
   textCollect2: {fileID: 8205575988516789734, guid: 4f6214de9a149ac47a85037975500a32, type: 3}
-  confti: []
   saveScore: 0
   homePageURL: https://shirshiur.co.il/game-school/https://shirshiur.co.il/game-school/
   googleFormURL: https://docs.google.com/forms/d/e/1FAIpQLSf25SB673RWNkRpBD0TlGL5dgsnKuR74LoXYRKh0lzBXG2ElA/viewform?usp=sf_link
@@ -8054,7 +8053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b239e6d482d7341afb66b66736bd91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 20
+  timeLimit: 120
 --- !u!1 &1118225820
 GameObject:
   m_ObjectHideFlags: 0
@@ -8327,7 +8326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1144796604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12586,7 +12585,7 @@ MonoBehaviour:
   screenWidth: 10
   descentSpeed: 0.5
   limit: {fileID: 201835014}
-  timeToSpawn: 20
+  timeToSpawn: 120
 --- !u!4 &1764829810
 Transform:
   m_ObjectHideFlags: 0
@@ -15235,6 +15234,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 1060145409567196279, guid: a85d8dc88de6d6e4b93ea8ee8a853536, type: 3}
   jumpForce: 5
   swipeThreshold: 50
+  id: 2
   score: 0
   _isMoving: 0
   _isRunning: 0
@@ -16495,6 +16495,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 1060145409567196279, guid: 9617f32ecaad6a640aa66fa8d65dca5e, type: 3}
   jumpForce: 5
   swipeThreshold: 50
+  id: 3
   score: 0
   _isMoving: 0
   _isRunning: 0
@@ -23254,6 +23255,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 1060145409567196279, guid: fe8e9be3d9cb47848915a79615672dd6, type: 3}
   jumpForce: 5
   swipeThreshold: 50
+  id: 0
   score: 0
   _isMoving: 0
   _isRunning: 0
@@ -25048,6 +25050,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 1060145409567196279, guid: de5b13db7c4f8c845a281cbdcc3c49e5, type: 3}
   jumpForce: 5
   swipeThreshold: 50
+  id: 1
   score: 0
   _isMoving: 0
   _isRunning: 0
@@ -26236,7 +26239,7 @@ PrefabInstance:
     - target: {fileID: 6359580036130501024, guid: b34a9231e6a68e949bcacb5e64f27de0, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 05ed3d7c5ccc79b4dae1518a71348163, type: 3}
+      objectReference: {fileID: 8300000, guid: 0e5ad3e0da763c94588977f9e8de0b8b, type: 3}
     - target: {fileID: 6359580036130501027, guid: b34a9231e6a68e949bcacb5e64f27de0, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -26667,7 +26670,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1084575981}
         m_TargetAssemblyTypeName: TimerSceneTransition, Assembly-CSharp
-        m_MethodName: LoadNextScene
+        m_MethodName: LoadNextScene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

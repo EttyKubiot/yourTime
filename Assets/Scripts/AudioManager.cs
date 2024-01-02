@@ -14,9 +14,9 @@ public class AudioManager : MonoBehaviour
        
     }
 
-    public void PlaySound(AudioClip audioClip)
-    {
-        audioSource.PlayOneShot(audioClip, 0.7f); 
-    }
+    //public void PlaySound(AudioClip audioClip)
+    //{
+    //    audioSource.PlayOneShot(audioClip, 0.7f); 
+    //}
 
 }

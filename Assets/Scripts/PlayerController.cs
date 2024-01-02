@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public ParticleSystem collisionParticles;
     public float jumpForce = 10f;
     public float swipeThreshold = 100f;
+    public int id;
 
     //public GameObject check;
     private Vector2 swipeStartPosition;
@@ -284,13 +285,19 @@ public class PlayerController : MonoBehaviour
 
             Debug.Log("catch");
 
-            MyGameManager.Instance.OnScorePlayer1?.Invoke(gameObject.layer, other.tag);
+            MyGameManager.Instance.OnScorePlayer1?.Invoke(id, other.tag);
             Debug.Log(gameObject.layer);
 
         }
         if(other.CompareTag("Flag"))
         {
-            MyGameManager.Instance.OnFlag?.Invoke(gameObject.layer);
+            MyGameManager.Instance.OnFlag?.Invoke(id);
+            Debug.Log(gameObject.layer);
+            gameObject.SetActive(false);
+        }
+        if (other.CompareTag("Bad"))
+        {
+           gameObject.transform.position = new Vector3(-52, -2, 0);
         }
 
 
